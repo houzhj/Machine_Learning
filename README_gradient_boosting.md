@@ -6,7 +6,7 @@
   - It contains only numerical input variables which are the result of a [PCA transformation](https://en.wikipedia.org/wiki/Principal_component_analysis).
   - Feature 'Class' is the target feature variable and it takes value 1 in case of fraud and 0 otherwise.
 - Data [[Link](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)]
-- [**Exploratory data analysis and oversampling**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Credit_Card_Fraud_Detection/credit_card_fraud_EAD_oversampling.ipynb)
+- [**Exploratory data analysis and oversampling**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Credit_Card_Fraud_Detection/credit_card_fraud_EDA_oversampling.ipynb)
 - [**Hyperparameter Tuning**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Credit_Card_Fraud_Detection/credit_card_fraud_hyperparameter.ipynb)
 
 # Sentimential Analysis using IMDB Reviews (TFIDF + Gradient Boosting)
