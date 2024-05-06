@@ -21,7 +21,9 @@
   - [**Boruta analysis**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_boruta_analysis.ipynb): Conducting Burota feature selection using different combinations of algorithms (LGB,XGB, Random forest) and type of feature importance (gain,split,cover,weight,impurity).
 - **Object-oriented programming (OOP) version**
   - [**Data treatment and feature selection**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_oop_data_feature.ipynb)
-    - data clearning
+    - data cleaning
     - data engineering (creating TFIDF-based features)
     - Iterative reduction and Boruta feature selection approaches
   - [**Hyperparameter Tuning**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_oop_hp.ipynb)
+    - Random search
+    - Visualization 
