@@ -20,4 +20,8 @@
   - [**Random noise feature test**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_random_noise_test.ipynb): evaluate feature selection methods, according to whether they are able to identify random noise feautures.
   - [**Boruta analysis**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_boruta_analysis.ipynb): Conducting Burota feature selection using different combinations of algorithms (LGB,XGB, Random forest) and type of feature importance (gain,split,cover,weight,impurity).
 - **Object-oriented programming (OOP) version**
-  - [Data treatment (data clearning and creating TFIDF-based features) and feature selection (iterative reduction and Boruta approaches)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_OOP.ipynb)
+  - [**Data treatment and feature selection**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_OOP.ipynb)
+    - data clearning
+    - data engineering (creating TFIDF-based features)
+    - Iterative reduction and Boruta feature selection approaches
+  - [**Hyperparameter Tuning**]
