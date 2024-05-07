@@ -8,6 +8,8 @@
 - Data [[Link](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)]
 - [**Exploratory data analysis and oversampling**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Credit_Card_Fraud_Detection/credit_card_fraud_EDA_oversampling.ipynb)
 - [**Hyperparameter Tuning**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Credit_Card_Fraud_Detection/credit_card_fraud_hyperparameter.ipynb)
+  - Random Search (sklearn.model_selection.RandomizedSearchCV ) 
+  - Bayes Search (skopt.BayesSearchCV)
 
 # Sentimential Analysis using IMDB Reviews (TFIDF + Gradient Boosting)
 - Introduction:
