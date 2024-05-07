@@ -24,6 +24,6 @@
     - data cleaning
     - data engineering (creating TFIDF-based features)
     - Iterative reduction and Boruta feature selection approaches
-  - [**Hyperparameter Tuning**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_oop_hp.ipynb)
+  - [**Hyperparameter tuning**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/imdb_oop_hp.ipynb)
     - Random search
     - Visualization 
