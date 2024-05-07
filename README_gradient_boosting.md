@@ -7,6 +7,11 @@
   - Feature 'Class' is the target feature variable and it takes value 1 in case of fraud and 0 otherwise.
 - Data [[Link](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)]
 - [**Exploratory data analysis and oversampling**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Credit_Card_Fraud_Detection/credit_card_fraud_EDA_oversampling.ipynb)
+  - Oversampling:
+    - Naive random oversampling
+    - SMOTE (Synthetic Minority Oversampling Technique )
+    - ADASYN (Adaptive Synthetic Sampling)
+ 
 - [**Hyperparameter Tuning**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Credit_Card_Fraud_Detection/credit_card_fraud_hyperparameter.ipynb)
   - Random Search (sklearn.model_selection.RandomizedSearchCV ) 
   - Bayes Search (skopt.BayesSearchCV)
