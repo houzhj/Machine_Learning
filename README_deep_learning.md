@@ -30,12 +30,12 @@
 - **Notebook**: [**Surname Classification using MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_MLP.ipynb)
   - Model: MLP (Multilayer Perceptron)
   - NLP data treatment: One-hot encoding with an "unknown" token.
-  - A weight is assigned to each class that inversely proportional to its frequency.
+  - A weight is assigned to each surname class that is inversely proportional to its frequency.
   - Training routine: Similiar to **Perceptron Classifier for Sentiment Analysis (Yelp Reviews)**.
 - **Notebook**: [**Surname Classification using CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_CNN.ipynb)
   - Model: CNN (Convolutional neural network)
   - NLP data treatment: Matrix of one-hots with an "unknown" token.
-  - A weight is assigned to each class that inversely proportional to its frequency.
+  - A weight is assigned to each surname class that is inversely proportional to its frequency.
   - Training routine: Similiar to **Perceptron Classifier for Sentiment Analysis (Yelp Reviews)**.
 
 # Modeling Components
