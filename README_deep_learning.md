@@ -43,5 +43,5 @@
 - Visualization of the learning process: [[**Perceptron**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb)]
 - Word embedding:
   - [Introduction]()
-  - Count-­based embedding methods: [**One-hot encoding**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/class_Vectorizer.ipynb), [**TFIDF**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/tfidf.ipynb),
-  - learning-­based embedding methods: [**GloVe (pretrained)**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/pretrained_embeddings_GloVe.ipynb)
+  - Count-­based embedding methods: [[**One-hot encoding**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/class_Vectorizer.ipynb)], [[**TFIDF**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/tfidf.ipynb)],
+  - learning-­based embedding methods: [[**GloVe (pretrained)**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/pretrained_embeddings_GloVe.ipynb)]
