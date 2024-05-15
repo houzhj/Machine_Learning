@@ -39,7 +39,6 @@
   - Training routine: Similiar to **Perceptron Classifier for Sentiment Analysis (Yelp Reviews)**.
 
 # Modeling Components
-- Training routine: [[Example 1](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/MAIN_yelp_perceptron.ipynb)], [[Example 2](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_MLP.ipynb)]
 - Algorithms: [[Perceptron](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_classifiers.ipynb)], [[MLP](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_MLP.ipynb)], [[CNN](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_CNN.ipynb)]
 - Visualization of the learning process: [[Perceptron](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb)]
 - Word embedding:
