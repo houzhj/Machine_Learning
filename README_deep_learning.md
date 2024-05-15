@@ -18,7 +18,7 @@
 - **Introduction**:
   - The goal is to to classify whether restaurant reviews on Yelp are positive or negative using a perceptron.
   - The Yelp dataset includes 56,000 reviews. This is a sample of the dataset created by Zhang, Zhao, and Lecun (2015).
-- **Notebook**: [**Perceptron classifier for sentimental analysis using Yelp reviews data**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/yelp_perceptron.ipynb)
+- **Notebook**: [**Perceptron classifier for sentimental analysis using Yelp reviews data**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/MAIN_yelp_perceptron.ipynb)
   - Model: Perceptron
   - NLP data treatment: one-hot encoding with an "unknown" token and restrictions to infrequent tokens. 
   - Training routine: Group the vectorized data points into batches; define a batch generator function; define classifier, optimizer, and loss function; track the training state (update best model and early stopping status); training iterations (updates the model parameters so that it improves); validation iterations (evaluates model performance); early-stop the training loop if criterion are met.
@@ -27,19 +27,19 @@
 - **Introduction**:
   - The goal is to to classify surnames to their country of origin using a MLP (Multilayer Perceptron) classifier.
   - The surnames dataset includes 10,980 surnames from 18 different nationalities collected from different name sources on the internet. The top four classes account for 70% of the data: 27% are English, 22% are Russian, 15% are Arabic and 7% are Japanese. 
-- **Notebook**: [**Surname Classification using MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_MLP.ipynb)
+- **Notebook**: [**Surname Classification using MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_MLP.ipynb)
   - Model: MLP (Multilayer Perceptron)
   - NLP data treatment: One-hot encoding with an "unknown" token.
   - A weight is assigned to each surname class that is inversely proportional to its frequency.
   - Training routine: Similiar to **Perceptron Classifier for Sentiment Analysis (Yelp Reviews)**.
-- **Notebook**: [**Surname Classification using CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_CNN.ipynb)
+- **Notebook**: [**Surname Classification using CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_CNN.ipynb)
   - Model: CNN (Convolutional neural network)
   - NLP data treatment: Matrix of one-hots with an "unknown" token.
   - A weight is assigned to each surname class that is inversely proportional to its frequency.
   - Training routine: Similiar to **Perceptron Classifier for Sentiment Analysis (Yelp Reviews)**.
 
 # Modeling Components
-- Training routine: [[Example 1](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/yelp_perceptron.ipynb)], [[Example 2](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_MLP.ipynb)]
+- Training routine: [[Example 1](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/MAIN_yelp_perceptron.ipynb)], [[Example 2](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_MLP.ipynb)]
 - Algorithms: [[Perceptron](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_classifiers.ipynb)], [[MLP](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_MLP.ipynb)], [[CNN](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/surname_CNN.ipynb)]
 - Visualization of the learning process: [[Perceptron](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb)]
 - Word embedding:
