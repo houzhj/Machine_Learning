@@ -45,5 +45,5 @@
   - [Introduction]()
   - Count-­based embedding methods: [[**One-hot encoding**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/class_Vectorizer.ipynb)], [[**TFIDF**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/tfidf.ipynb)],
   - Learning-­based embedding methods:
-    - [[**Trained embedding layer using CBOW**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/Embedding_layer.ipynb)]
-    - **GloVe (pretrained)**: [Analogy task (using with Spotify's annoy library)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/pretrained_embeddings_GloVe.ipynb)]
+    - Training embedding: [[**Trained embedding layer using CBOW**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/Embedding_layer.ipynb)]
+    - Pretrained GloVe embedding: [**Analogy task (using with Spotify's annoy library)**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/pretrained_embeddings_GloVe.ipynb)], [[Fine-tuning GloVe in a documentation classification task]()]
