@@ -27,5 +27,5 @@
 | Multiclass Classification   | Perceptron                    |  Surname-nationality data|
 | Multiclass Classification   | CNN                           |  Surname-nationality data|
 | Continuous Bag of Words     | Embedding training                   |  Frankenstein data|
-| Classify the news titles into four categories: Sports, Science/Technology, World, and Business.   | Embedding fine-tuning and CNN                   |  AG News datase data|
+| Classify the news titles into four categories: Sports, Science/Technology, World, and Business.   | Fine-tuning pretrained word embeddingsand CNN                   |  AG News datase data|
 
