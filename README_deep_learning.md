@@ -21,7 +21,6 @@
 - **Notebook**: [**Perceptron classifier for sentimental analysis using Yelp reviews data**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/MAIN_yelp_perceptron.ipynb)
   - Model: Perceptron
   - NLP data treatment: one-hot encoding with an "unknown" token and restrictions to infrequent tokens. 
-  - Training routine: Group the vectorized data points into batches; define a batch generator function; define classifier, optimizer, and loss function; track the training state (update best model and early stopping status); training iterations (updates the model parameters so that it improves); validation iterations (evaluates model performance); early-stop the training loop if criterion are met.
 
 # Surname Classification
 - **Introduction**:
@@ -31,13 +30,11 @@
   - Model: MLP (Multilayer Perceptron)
   - NLP data treatment: One-hot encoding with an "unknown" token.
   - A weight is assigned to each surname class that is inversely proportional to its frequency.
-  - Training routine: Similiar to **Perceptron Classifier for Sentiment Analysis (Yelp Reviews)**.
 - **Notebook**: [**Surname Classification using CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_CNN.ipynb)
   - Model: CNN (Convolutional neural network)
   - NLP data treatment: Matrix of one-hots with an "unknown" token.
   - A weight is assigned to each surname class that is inversely proportional to its frequency.
-  - Training routine: Similiar to **Perceptron Classifier for Sentiment Analysis (Yelp Reviews)**.
-
+  
 # Learning Embeddings with Continuous Bag of Words (CBOW) using the novel Frankenstein
 - **Introduction**:
   - The goal is to construct a classification task for the purpose of learning CBOW embeddings. The CBOW model is a multiclass classification task like a fill­in­the­blank task (there is a sentence with a missing word, and the model’s job is to figure out what that word should be).
