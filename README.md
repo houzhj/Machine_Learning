@@ -21,10 +21,11 @@
 
 | **Projects**                | **Algorithms**           | **Data**     |
 |-----------------------------|--------------------------|--------------|
-| Sentiment Analysis          | Perceptron-based algorithms |  Amazon reviews data|
-| Binary Classification       | Perceptron               |  Toy data    |
-| Sentiment Analysis          | Perceptron               |  Yelp reviews data|
-| Multiclass Classification   | Perceptron               |  Surname-nationality data|
-| Multiclass Classification   | Convolutional neural network               |  Surname-nationality data|
-
+| Sentiment Analysis          | Perceptron-based algorithms   |  Amazon reviews data|
+| Binary Classification       | Perceptron                    |  Toy data    |
+| Sentiment Analysis          | Perceptron                    |  Yelp reviews data|
+| Multiclass Classification   | Perceptron                    |  Surname-nationality data|
+| Multiclass Classification   | CNN                           |  Surname-nationality data|
+| Continuous Bag of Words     | Embedding training                   |  Frankenstein data|
+| Multiclass Classification   | Embedding fine-tuning and CNN                   |  AG News datase data|
 
