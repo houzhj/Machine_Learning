@@ -38,7 +38,7 @@
 # Learning Embeddings with Continuous Bag of Words (CBOW) using the novel Frankenstein
 - **Introduction**:
   - The goal is to construct a classification task for the purpose of learning CBOW embeddings. The CBOW model is a multiclass classification task like a fill­in­the­blank task (there is a sentence with a missing word, and the model’s job is to figure out what that word should be).
-  - The raw Frankenstein text dataset includes 3427 sentences. The data treatment steps enumerate the dataset as a sequence of windows by iterating over the list of tokens in each sentence and group them into windows of a specified window size.
+  - The raw Frankenstein text dataset includes 3,427 sentences. The data treatment steps enumerate the dataset as a sequence of windows by iterating over the list of tokens in each sentence and group them into windows of a specified window size. With window size = 3, the modeling data include 90,700 windows (rows).
 - **Notebook**: [**Learning Embeddings with CBOW using Frankenstein**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
   - Model: CBOW with embedding. The model has three essential steps:
     - Indices representing the words of the context are used with an nn.Embedding(.) layer to create vectors for each word in the context.
