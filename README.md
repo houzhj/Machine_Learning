@@ -21,7 +21,7 @@
 
 | **Projects**                | **Algorithms**           | **Data**     |
 |-----------------------------|--------------------------|--------------|
-| Sentiment Analysis          | Perceptron-based algorithms   |  Amazon reviews data|
+| Design a binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Amazon reviews data|
 | Binary Classification       | Perceptron                    |  Toy data    |
 | Sentiment Analysis          | Perceptron                    |  Yelp reviews data|
 | Multiclass Classification   | Perceptron                    |  Surname-nationality data|
