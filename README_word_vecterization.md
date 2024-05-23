@@ -14,7 +14,8 @@ Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
 Sentence: "apple banana banana orange apple"
 
 Collapsed one-hot: [1,1,0], shape = [1, The size of the vocabulary]
-- 0s for all words that are not in the sentence; 1s for all words that are in the sentence
+- 0s for all words that are not in the sentence
+- 1s for all words that are in the sentence
 
 
 # 2. One-hot Matrix
@@ -28,9 +29,9 @@ Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
 
 Sentence: "apple banana banana orange apple"
 
-Collapsed one-hot: [1,1,0], shape = [The size of the vocabulary, max_length]
-
-
+Collapsed one-hot: [[1,0,0,0,1,0,0,0,0,0],[0,1,1,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0,0,0],] shape = [the size of the vocabulary, max_length = 10]
+- Given a specific row (correspoingind a word in a sentence), 0s for all except the position of that that in the vocabulary. 
+- The purpose of specifying a max_length is to ensure that all sentences have the same length when converted into vectors. This allows sentences of different lengths to have consistent dimensions during processing, facilitating subsequent model handling. Padding is a common technique: for sentences shorter than the max length, special padding symbols (usually 0 or a specified fill value) are used to extend them to the max length.
 
 
 
