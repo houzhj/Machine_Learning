@@ -4,7 +4,9 @@
 
 # 1. Collapsed One-HotCollapsed One-Hot
 **Description**: 
+
 A unique index is assigned to each unique category (word or phrase), creating a binary vector of length equal to the total number of categories. Often used for simple text classification tasks where the order of words and context are not important.
+
 **Example**
 
 
