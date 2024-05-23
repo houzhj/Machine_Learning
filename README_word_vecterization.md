@@ -40,7 +40,7 @@ Collapsed one-hot: [[1,0,0,0,1,0,0,0,0,0],[0,1,1,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0
 
 
 # 3. Bag of Words
-## [Code Link]()
+## [Code Link](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Amazon_Reviews/amazon_linear_classifiers.ipynb)
 
 **Description**: 
 
@@ -52,9 +52,9 @@ Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
 
 Sentence: "apple banana banana orange apple"
 
-Collapsed one-hot: [1,1,0], shape = [1, The size of the vocabulary]
-- 0s for all words that are not in the sentence
-- 1s for all words that are in the sentence
+Bag of words: [2,2,1], shape = [1, The size of the vocabulary]
+- In the vector, the i-th number represents the number of times the corresponding word in the vocabulary appears in the sentence.
+- 
 
 
 
