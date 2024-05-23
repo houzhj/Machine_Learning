@@ -19,9 +19,9 @@
 ### [README](https://github.com/houzhj/Machine_Learning/blob/main/README_deep_learning.md)
 
 
-| **Projects**                | **Algorithms**           | **Data**     |
+| **Projects**                | **Algorithms**           | **Word Vectorization**     |
 |-----------------------------|--------------------------|--------------|
-| Design a binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Amazon reviews data|
+| Design a binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Bag-of-Words|
 | Binary Classification       | Perceptron                    |  Toy data    |
 | Sentiment Analysis          | Perceptron                    |  Yelp reviews data|
 | Multiclass Classification   | Perceptron                    |  Surname-nationality data|
