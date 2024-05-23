@@ -21,11 +21,11 @@
 
 | **Projects**                | **Algorithms**           | **Word Vectorization**     |
 |-----------------------------|--------------------------|--------------|
-| A binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Bag-of-Words|
-| A binary classification using a toy data      | Perceptron                    |  N/A    |
-| A binary classifier for sentiment analysis (positive or negative) on Yelp reviews          | Perceptron                    | Collapsed one-hot|
-| A multiclass classifier for predicting the nationality of a given surname    | Perceptron                    |  Collapsed one-hot|
-| A multiclass classifier for predicting the nationality of a given surname  | CNN                           |  Matrix of one-hots|
-| Learned-based embedding based on a "Continuous Bag of Words (CBOW)" task using the novel Frankenstein     | Perceptron with a Embedding layer    | Trained embedding |
-| Classify the news titles into four categories: Sports, Science/Technology, World, and Business.   | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)  |  Fine-tuned pretrained Embeddings|
+| A binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   | Bag-of-Words       |
+| A binary classification using a toy data                                                      | Perceptron                    | N/A                |
+| A binary classifier for sentiment analysis (positive or negative) on Yelp reviews             | Perceptron                    | Collapsed one-hot  |
+| A multiclass classifier for predicting the nationality of a given surname                     | Perceptron                    | Collapsed one-hot  |
+| A multiclass classifier for predicting the nationality of a given surname                     | CNN                           | Matrix of one-hots |
+| Learned-based embedding based on a "Continuous Bag of Words (CBOW)" task using the novel Frankenstein     | Perceptron with a Embedding layer      | Trained embedding |
+| A multiclass classifier for predicting the category of a given news title                     | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)     |  Fine-tuned pretrained Embeddings |
 
