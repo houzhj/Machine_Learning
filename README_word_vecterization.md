@@ -13,5 +13,25 @@ Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
 
 Sentence: "apple banana banana orange apple"
 
-Collapsed one-hot: [1,1,0]
+Collapsed one-hot: [1,1,0], shape = [1, The size of the vocabulary]
+- 0s for all words that are not in the sentence; 1s for all words that are in the sentence
+
+
+# 2. One-hot Matrix
+**Description**: 
+
+A 2D matrix where each row corresponds to a word in the document, and each row is a one-hot encoded vector representing that word. Used in more complex NLP tasks where word order and context are important, such as sequence models and neural networks.
+
+**Example:**
+
+Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
+
+Sentence: "apple banana banana orange apple"
+
+Collapsed one-hot: [1,1,0], shape = [The size of the vocabulary, max_length]
+
+
+
+
+
 
