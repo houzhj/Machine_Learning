@@ -21,9 +21,9 @@
 
 | **Projects**                | **Algorithms**           | **Word Vectorization**     |
 |-----------------------------|--------------------------|--------------|
-| Design a binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Bag-of-Words|
-| Binary Classification using a toy data      | Perceptron                    |  N/A    |
-| Design a binary classifier for sentiment analysis (positive or negative) on Yelp reviews          | Perceptron                    |  One-hot|
+| Binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Bag-of-Words|
+| Binary classification using a toy data      | Perceptron                    |  N/A    |
+| Binary classifier for sentiment analysis (positive or negative) on Yelp reviews          | Perceptron                    |  One-hot|
 | Multiclass Classification   | Perceptron                    |  Surname-nationality data|
 | Multiclass Classification   | CNN                           |  Surname-nationality data|
 | Continuous Bag of Words     | Embedding training                   |  Frankenstein data|
