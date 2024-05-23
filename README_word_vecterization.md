@@ -39,6 +39,23 @@ Collapsed one-hot: [[1,0,0,0,1,0,0,0,0,0],[0,1,1,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0
 
 
 
+# 3. Bag of Words
+## [Code Link]()
+
+**Description**: 
+
+By converting text into a set of unique words and counting their occurrences, it creates a word frequency vector. BoW is often used as a baseline method for text representation before moving on to more complex methods like TF-IDF, word embeddings (Word2Vec, GloVe), or contextual embeddings (BERT, GPT).
+
+**Example:**
+
+Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
+
+Sentence: "apple banana banana orange apple"
+
+Collapsed one-hot: [1,1,0], shape = [1, The size of the vocabulary]
+- 0s for all words that are not in the sentence
+- 1s for all words that are in the sentence
+
 
 
 
