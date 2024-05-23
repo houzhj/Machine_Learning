@@ -27,5 +27,5 @@
 | A multiclass classifier for predicting the nationality of a given surname    | Perceptron                    |  Collapsed one-hot|
 | A multiclass classifier for predicting the nationality of a given surname  | CNN                           |  Matrix of one-hots|
 | Learned-based embedding based on a "Continuous Bag of Words (CBOW)" task using the novel Frankenstein     | Perceptron with a Embedding layer    | Trained embedding |
-| Classify the news titles into four categories: Sports, Science/Technology, World, and Business.   | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)  |  fine-tuned pretrained Embeddings|
+| Classify the news titles into four categories: Sports, Science/Technology, World, and Business.   | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)  |  Fine-tuned pretrained Embeddings|
 
