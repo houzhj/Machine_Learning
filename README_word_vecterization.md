@@ -4,6 +4,7 @@
 
 # 1. Collapsed One-Hot
 ## [Code Link](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/class_Vectorizer_collapsed_one_hots.ipynb)
+
 **Description**: 
 
 A unique index is assigned to each unique category (word or phrase), creating a binary vector of length equal to the total number of categories. Often used for simple text classification tasks where the order of words and context are not important. Often used for simple text classification tasks where the order of words and context are not important.
@@ -20,6 +21,8 @@ Collapsed one-hot: [1,1,0], shape = [1, The size of the vocabulary]
 
 
 # 2. One-hot Matrix
+## [Code Link](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/class_Vectorizer_matrix_of_one_hots.ipynb)
+
 **Description**: 
 
 A 2D matrix where each row corresponds to a word in the document, and each row is a one-hot encoded vector representing that word. Used in more complex NLP tasks where word order and context are important, such as sequence models and neural networks.
