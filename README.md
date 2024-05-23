@@ -21,11 +21,11 @@
 
 | **Projects**                | **Algorithms**           | **Word Vectorization**     |
 |-----------------------------|--------------------------|--------------|
-| Binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Bag-of-Words|
-| Binary classification using a toy data      | Perceptron                    |  N/A    |
-| Binary classifier for sentiment analysis (positive or negative) on Yelp reviews          | Perceptron                    |  One-hot|
-| Multiclass Classification   | Perceptron                    |  Surname-nationality data|
-| Multiclass Classification   | CNN                           |  Surname-nationality data|
-| Continuous Bag of Words     | Embedding training                   |  Frankenstein data|
-| Classify the news titles into four categories: Sports, Science/Technology, World, and Business.   | Fine-tuning pretrained word embeddingsand CNN                   |  AG News datase data|
+| A binary classifier for sentiment analysis (positive or negative) on Amazon customers reviews | Perceptron-based algorithms   |  Bag-of-Words|
+| A binary classification using a toy data      | Perceptron                    |  N/A    |
+| A binary classifier for sentiment analysis (positive or negative) on Yelp reviews          | Perceptron                    | Collapsed one-hot|
+| A multiclass classifier for predicting the nationality of a given surname    | Perceptron                    |  Collapsed one-hot|
+| A multiclass classifier for predicting the nationality of a given surname  | CNN                           |  Matrix of one-hots|
+| Learned-based embedding based on a "Continuous Bag of Words (CBOW)" task using the novel Frankenstein     | Perceptron with a Embedding layer    | Trained embedding |
+| Classify the news titles into four categories: Sports, Science/Technology, World, and Business.   | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)  |  fine-tuned pretrained Embeddings|
 
