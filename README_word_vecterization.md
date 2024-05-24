@@ -78,8 +78,7 @@ Corpus (include four sentences):
 Vocabulary = ['and','document','first','is','one','second','the','third','this']
 
 For word "document":
-
-In sentence 1: TF = 1, IDF = log(n_sentences + 1) / log()
+- In sentence 1: TF = 1, $$IDF = log(n_sentences + 1) / log(n_sentences_including_document+1)+1$$
 
 Sentence: "apple banana banana orange apple"
 
