@@ -69,7 +69,17 @@ TFIDF is a measure of importance of a word to a document in a collection or corp
 
 **Example:**
 
-Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
+Corpus (include four sentences): 
+['this is the first document',
+ 'this document is the second document',
+ 'and this is the third one',
+ 'is this the first document',]
+
+Vocabulary = ['and','document','first','is','one','second','the','third','this']
+
+For word "document":
+
+In sentence 1: TF = 1, IDF = log(n_sentences + 1) / log()
 
 Sentence: "apple banana banana orange apple"
 
