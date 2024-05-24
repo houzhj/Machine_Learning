@@ -107,8 +107,7 @@ In the initialization the embedding matrix of an Embedding layer, there are two 
 
 **Example:**
 
-GloVe
-[Link](https://nlp.stanford.edu/projects/glove/)
+[GloVe](https://nlp.stanford.edu/projects/glove/)
 
 Developed by Stanford, is an algorithm used for generating word embeddings, based on the Global Vectors model. GloVe (Global Vectors for Word Representation) is a word embedding model that represents words as high-dimensional vectors and encodes the semantic information of words into vector space.
 
