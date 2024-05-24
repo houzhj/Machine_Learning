@@ -81,7 +81,7 @@ For word "document":
 - In sentence 3: TF = 0, IDF = 1.223, TFIDF=0.000
 - In sentence 4: TF = 1, IDF = 1.223, TFIDF=1.223
 
-TFIDF matrix: [2,2,1], shape = [the size of the corpus, the size of the vocabulary]
+TFIDF matrix: below, shape = [the size of the corpus, the size of the vocabulary]
 <img width="971" alt="image" src="https://github.com/houzhj/Machine_Learning/assets/33500622/83d5794a-a8a6-47c7-ac58-b2eee11fcaa3">
 
 
