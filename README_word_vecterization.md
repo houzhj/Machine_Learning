@@ -92,7 +92,7 @@ TFIDF matrix: below, shape = [the size of the corpus, the size of the vocabulary
 
 # 5. Word2vec
 
-## [Code Link (Training word embedding with CBOW)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
+## [Code Link (Training word embedding with a CBOW task)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
 ## [Code Link (Fine-tuning pretrained word embedding)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/MAIN_AGnews_CNN_embedding.ipynb)
 
 **Description**: 
