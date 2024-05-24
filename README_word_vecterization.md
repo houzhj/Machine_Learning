@@ -93,6 +93,7 @@ TFIDF matrix: below, shape = [the size of the corpus, the size of the vocabulary
 # 5. Word2vec
 
 ## [Code Link (Training word embedding with CBOW)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
+## [Code Link (Fine-tuning pretrained word embedding)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/MAIN_AGnews_CNN_embedding.ipynb)
 
 **Description**: 
 
@@ -102,6 +103,16 @@ The choice of the auxiliary task depends on the intuition of the algorithm desig
 - The skip-gram model assumes that a word can be used to generate the words that surround it in a text sequence. 
 - The continuous bag of words (CBOW) model assumes that the central target word is generated based on the context words before and after it in the text sequence.
 
+In the initialization the embedding matrix of an Embedding layer, there are two options: 1) Load pre-trained embedding (GloVe) from disk and use it and fine-tune it for the task at hand; 2) Random initial weights. 
+
+**Example:**
+
+GloVe
+[Link](https://nlp.stanford.edu/projects/glove/)
+
+Developed by Stanford, is an algorithm used for generating word embeddings, based on the Global Vectors model. GloVe (Global Vectors for Word Representation) is a word embedding model that represents words as high-dimensional vectors and encodes the semantic information of words into vector space.
+
+glove.6B.zip is a pre-trained version of the Stanford GloVe model. It is a word embedding model that has been trained on large-scale corpora and can be directly used for natural language processing (NLP) tasks such as word similarity calculation, text classification, sentiment analysis, etc. Pre-trained GloVe models typically include vector representations of millions of words, with each word corresponding to a high-dimensional vector. It has 6B tokens and a vocabulary of 400K words.
 
 
 
