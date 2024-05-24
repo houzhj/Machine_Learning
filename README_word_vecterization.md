@@ -58,6 +58,26 @@ Bag of words: [2,2,1], shape = [1, The size of the vocabulary]
 
 
 
+# 4. TF-IDF
+## [Code Link](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/tfidf.ipynb)
+
+**Description**: 
+
+TFIDF is a measure of importance of a word to a document in a collection or corpus, adjusted for the fact that some words appear more frequently in general.
+- Term Frequency (TF)
+- Inverse Document Frequency (IDF)
+
+**Example:**
+
+Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
+
+Sentence: "apple banana banana orange apple"
+
+Bag of words: [2,2,1], shape = [1, The size of the vocabulary]
+- In the vector, the i-th number represents the number of times the corresponding word in the vocabulary appears in the sentence.
+
+
+
 
 
 
