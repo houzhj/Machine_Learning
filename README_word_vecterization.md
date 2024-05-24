@@ -7,7 +7,7 @@
 
 **Description**: 
 
-A unique index is assigned to each unique category (word or phrase), creating a binary vector of length equal to the total number of categories. Often used for simple text classification tasks where the order of words and context are not important. Often used for simple text classification tasks where the order of words and context are not important.
+Assume that the number of different tokens in the vocabulary is N (the len(vocab)) and the token indices range from 0 to N − 1. A unique index is assigned to each unique category (word or phrase), creating a binary vector of length equal to N. Often used for simple text classification tasks where the order of words and context are not important. Often used for simple text classification tasks where the order of words and context are not important.
 
 Limitations of this method: (1) sparseness, n_unique_tokens in a text sample << n_unique_tokens in a vocabulary; (2) discarding the order of the characters' appearance.
 
