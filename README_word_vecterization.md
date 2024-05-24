@@ -90,10 +90,17 @@ TFIDF matrix: below, shape = [the size of the corpus, the size of the vocabulary
 <img width="971" alt="image" src="https://github.com/houzhj/Machine_Learning/assets/33500622/83d5794a-a8a6-47c7-ac58-b2eee11fcaa3">
 
 
+# 5. Word2vec
 
+## [Code Link (Training word embedding with CBOW)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
 
+**Description**: 
 
+Word2vec represents each word with a fixed-length vector and uses these vectors to better indicate the similarity and analogy rela- tionships between different words. The word embedding methods train with just words (i.e., unlabeled data), but in a supervised fashion. This is possible by constructing auxiliary supervised tasks in which the data is implicitly labeled, with the intuition that a representation that is optimized to solve the auxiliary task will capture many statistical and linguistic properties of the text corpus in order to be generally useful.
 
+The choice of the auxiliary task depends on the intuition of the algorithm designer and the computational expense. Examples include Continuous Bag­of­ Words (CBOW), Skipgrams, and so on. 
+- The skip-gram model assumes that a word can be used to generate the words that surround it in a text sequence. 
+- The continuous bag of words (CBOW) model assumes that the central target word is generated based on the context words before and after it in the text sequence.
 
 
 
