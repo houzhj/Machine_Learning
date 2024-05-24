@@ -73,8 +73,9 @@ Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
 
 Sentence: "apple banana banana orange apple"
 
-Bag of words: [0,1,1,2,0], shape = [1, the size of the input text]
+Token IDs: [0,1,1,2,0], shape = [1, the size of the input text]
 - In the vector, the i-th number represents the token ID for the i-th word.
+- If a max_length is used (i.e., max_length = 10), special padding symbols (usually 0 or a specified fill value) are used to extend them to the max length so that all sentences have the same length when converted into vectors. In this case the word vector is [0,1,1,2,0,0,0,0,0,0].
 
 
 
