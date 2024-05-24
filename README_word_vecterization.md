@@ -7,9 +7,12 @@
 
 **Description**: 
 
-Assume that the number of different tokens in the vocabulary is N (the len(vocab)) and the token indices range from 0 to N − 1. A unique index is assigned to each unique category (word or phrase), creating a binary vector of length equal to N. Often used for simple text classification tasks where the order of words and context are not important. Often used for simple text classification tasks where the order of words and context are not important.
+Assume that the number of different tokens in the vocabulary is N (the len(vocab)) and the token indices range from 0 to N − 1. A unique index is assigned to each unique category (word or phrase), creating a binary vector of length equal to N. Often used for simple text classification tasks where the order of words and context are not important. 
 
-Limitations of this method: (1) sparseness, n_unique_tokens in a text sample << n_unique_tokens in a vocabulary; (2) discarding the order of the characters' appearance.
+Often used for simple text classification tasks where the order of words and context are not important.
+
+Limitations of this method: (1) sparseness, n_unique_tokens in a text sample << n_unique_tokens in a vocabulary; (2) discarding the order of the characters' appearance; (3) the one-hot word vectors cannot accurately express the similarity between different words, such as the cosine similarity that is commonly use. Since the cosine similarity between the one-hot vectors of any two different words is 0, it is difficult to use the one-hot vector to accurately represent the similarity between multiple different words.
+$$\frac{xy}{|x||y|}$$
 
 **Example:**
 
