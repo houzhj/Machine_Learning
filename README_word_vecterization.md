@@ -42,8 +42,6 @@ Collapsed one-hot: [[1,0,0,0,1,0,0,0,0,0],[0,1,1,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0
 - Given a specific row (correspoingind a word in a sentence), 0s for all except the position of that that in the vocabulary. 
 - The purpose of specifying a max_length is to ensure that all sentences have the same length when converted into vectors. This allows sentences of different lengths to have consistent dimensions during processing, facilitating subsequent model handling. Padding is a common technique: for sentences shorter than the max length, special padding symbols (usually 0 or a specified fill value) are used to extend them to the max length.
 
-
-
 # 3. Bag of Words
 ## [Code Link](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Amazon_Reviews/amazon_linear_classifiers.ipynb)
 
@@ -60,8 +58,27 @@ Sentence: "apple banana banana orange apple"
 Bag of words: [2,2,1], shape = [1, the size of the vocabulary]
 - In the vector, the i-th number represents the number of times the corresponding word in the vocabulary appears in the sentence.
 
+# 4. Token IDs
+## [Code Link](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/class_Vectorizer.ipynb)
 
-# 4. TF-IDF
+**Description**: 
+
+Each unique token in the final vocabulary is assigned a unique numerical index or ID. Token IDs are a straightforward numerical representation of tokens. It is, in fact, a basic form of vectorization. They do not capture any deeper relationships or patterns between the tokens.
+
+Often used in CNN models, sequence models (RNN, LSTM), transformer models, and etc.
+
+**Example:**
+
+Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
+
+Sentence: "apple banana banana orange apple"
+
+Bag of words: [0,1,1,2,0], shape = [1, the size of the input text]
+- In the vector, the i-th number represents the token ID for the i-th word.
+
+
+
+# 5. TF-IDF
 ## [Code Link](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/tfidf.ipynb)
 
 **Description**: 
@@ -90,7 +107,7 @@ TFIDF matrix: below, shape = [the size of the corpus, the size of the vocabulary
 <img width="971" alt="image" src="https://github.com/houzhj/Machine_Learning/assets/33500622/83d5794a-a8a6-47c7-ac58-b2eee11fcaa3">
 
 
-# 5. Word2vec
+# 6. Word2vec
 
 ## [Code Link (Training word embedding with a CBOW task)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
 ## [Code Link (Fine-tuning pretrained word embedding)](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/MAIN_AGnews_CNN_embedding.ipynb)
