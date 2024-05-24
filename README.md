@@ -21,11 +21,11 @@
 
 | **Projects**                | **Algorithms**           | **Word Vectorization**     |
 |-----------------------------|--------------------------|--------------|
-| A binary classifier for sentiment analysis on Amazon customers reviews | Perceptron-based algorithms   | Bag-of-Words       |
+| A binary classifier for sentiment analysis on Amazon reviews | Perceptron-based algorithms   | Bag-of-Words       |
 | A binary classification using a toy data                                                      | Perceptron                    | N/A                |
 | A binary classifier for sentiment analysis on Yelp reviews             | Perceptron                    | Collapsed one-hot  |
 | A multiclass classifier for predicting the nationality of a given surname                     | Perceptron                    | Collapsed one-hot  |
 | A multiclass classifier for predicting the nationality of a given surname                     | CNN                           | Matrix of one-hots |
-| Learned-based embedding based on a "Continuous Bag of Words (CBOW)" task using the novel Frankenstein     | Perceptron with a Embedding layer      | Trained embedding |
-| A multiclass classifier for predicting the category of a news given its title                     | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)     |  Fine-tuned GloVe |
+| Learned-based embedding based on a "Continuous Bag of Words" task using the novel Frankenstein     | Perceptron with a Embedding layer      | Trained embedding |
+| A multiclass classifier for predicting the category given a news title                     | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)     |  Fine-tuned GloVe |
 
