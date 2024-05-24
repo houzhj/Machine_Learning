@@ -9,6 +9,8 @@
 
 A unique index is assigned to each unique category (word or phrase), creating a binary vector of length equal to the total number of categories. Often used for simple text classification tasks where the order of words and context are not important. Often used for simple text classification tasks where the order of words and context are not important.
 
+Limitations of this method: (1) sparseness, n_unique_tokens in a surname << n_unique_tokens in a vocabulary; (2) discarding the order of the characters' appearance.
+
 **Example:**
 
 Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
