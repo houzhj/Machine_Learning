@@ -51,7 +51,7 @@
 - Visualization of the learning process: [[**Perceptron**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb)]
 - Word embedding:
   - [**Introduction**](https://github.com/houzhj/Machine_Learning/blob/main/README_word_vecterization.md)
-  - Count-­based embedding methods: [[**One-hot encoding**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/class_Vectorizer.ipynb)], [[**TFIDF**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/tfidf.ipynb)],
+  - Count-­based embedding methods: [[**Collapsed One-hot**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/class_Vectorizer_collapsed_one_hots.ipynb)], [[**One-hot Matrix**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/class_Vectorizer_matrix_of_one_hots.ipynb)], [[**Bag of Words**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Amazon_Reviews/amazon_linear_classifiers.ipynb)], [[**TFIDF**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/IMDB_Reviews/tfidf.ipynb)],
   - Learning-­based embedding methods:
     - Training embedding: [[**Trained embedding layer using CBOW**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/Embedding_layer.ipynb)]
     - Pretrained GloVe embedding: [[**Application in an analogy task**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/pretrained_embeddings_GloVe.ipynb)], [[**Fine-tuning GloVe**]()]
