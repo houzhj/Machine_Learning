@@ -52,10 +52,8 @@ Vocabulary: {0: 'apple', 1: 'banana', 2: 'orange'}
 
 Sentence: "apple banana banana orange apple"
 
-Bag of words: [2,2,1], shape = [1, The size of the vocabulary]
+Bag of words: [2,2,1], shape = [1, the size of the vocabulary]
 - In the vector, the i-th number represents the number of times the corresponding word in the vocabulary appears in the sentence.
-
-
 
 
 # 4. TF-IDF
@@ -78,12 +76,13 @@ Corpus (include four sentences):
 Vocabulary = ['and','document','first','is','one','second','the','third','this']
 
 For word "document":
-- In sentence 1: TF = 1, $$IDF = log(n_sentences + 1) / log(n_sentences_including_document+1)+1$$
+- In sentence 1: TF = 1, IDF = 1.223, TFIDF=1.223
+- In sentence 2: TF = 2, IDF = 1.223, TFIDF=2.446
+- In sentence 3: TF = 0, IDF = 1.223, TFIDF=0.000
+- In sentence 4: TF = 1, IDF = 1.223, TFIDF=1.223
 
-Sentence: "apple banana banana orange apple"
-
-Bag of words: [2,2,1], shape = [1, The size of the vocabulary]
-- In the vector, the i-th number represents the number of times the corresponding word in the vocabulary appears in the sentence.
+TFIDF matrix: [2,2,1], shape = [the size of the corpus, the size of the vocabulary]
+<img width="971" alt="image" src="https://github.com/houzhj/Machine_Learning/assets/33500622/83d5794a-a8a6-47c7-ac58-b2eee11fcaa3">
 
 
 
