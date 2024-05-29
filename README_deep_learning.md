@@ -1,13 +1,15 @@
 # Perceptron-based Classifier for Sentiment Analysis (Amazon reviews)
 - **Introduction**: The goal is to design a classifier for sentiment analysis.
 - **Data**: Amazon reviews
+  
 | **Text**                | **Sentiment**           |
 |-----------------------------|--------------------------|
-| The chips are okay Not near as flavorful as the regular blue chips. Nice size bag for a family. | -1   |
+| The chips are okay Not near as flavorful as the regular blue chips. Nice size bag for a family. |  -1  |
 | I really enjoyed this flavor, this has a very nice subtle coconut flavor that is not too sweet.  It's a hit in our household, I give them to my grand kids every time they come over and needless to say they keep coming back!       | 1 |
 
-
-
+- **Word vectorization**: bag of words (binary or count)
+- **Notebook**: [**Build several linear classifiers based on three algorithms**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Amazon_Reviews/amazon_linear_classifiers.ipynb)
+  - Perceptron, Average Perceptron, Pegasos.
 
 
 
