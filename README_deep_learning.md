@@ -1,4 +1,4 @@
-# Perceptron-based Classifier for Sentiment Analysis (Amazon reviews)
+# Sentiment Analysis using Amazon reviews
 - **Introduction**: The goal is to design a classifier for sentiment analysis.
 - **Data**: Amazon reviews
   
@@ -7,13 +7,12 @@
 | The chips are okay Not near as flavorful as the regular blue chips. Nice size bag for a family. |  -1  |
 | I really enjoyed this flavor, this has a very nice subtle coconut flavor that is not too sweet.  It's a hit in our household, I give them to my grand kids every time they come over and needless to say they keep coming back!       | 1 |
 
-- **Word vectorization**: bag of words (binary or count)
+- **Word vectorization**: Bag of words (binary or count)
 - **Notebook**: [**Build several linear classifiers based on three algorithms**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Amazon_Reviews/amazon_linear_classifiers.ipynb)
   - Perceptron, Average Perceptron, Pegasos.
 
 
-
-# Single Layer Perceptron and Multilayer Perceptron for a Binary Classification (Toy Data)
+# Visualization of training Single Layer Perceptron and Multilayer Perceptron using Toy Data
 - **Introduction**: The goal is to design a binary classifier using a generated toy dataset (classifying two-dimensional points into one of two classes).
 - **Data**: Generated toy datasets, two dimensions
 - **Notebook**: [**Perceptron and Multiple Layer Perceptron Models using PyTorch**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/MAIN_perceptron_mlp.ipynb)
@@ -23,14 +22,31 @@
 
 
 
+# Sentiment Analysis using Yelp Reviews
+- **Introduction**: The goal is to to classify whether restaurant reviews on Yelp are positive or negative using a perceptron.
+
+- **Data**: The Yelp dataset includes 56,000 reviews. This is a sample of the dataset created by Zhang, Zhao, and Lecun (2015).
+  
+| **Text**                | **Sentiment**           |
+|-----------------------------|--------------------------|
+| Unfortunately, the frustration of being Dr. Goldberg's patient is a repeat of the experience I've had with so many other doctors in NYC -- good doctor, terrible staff.  It seems that his staff simply never answers the phone.  It usually takes 2 hours of repeated calling to get an answer.  Who has time for that or wants to deal with it?  I have run into this problem with many other doctors and I just don't get it.  You have office workers, you have patients with medical needs, why isn't anyone answering the phone?  It's incomprehensible and not work the aggravation.  It's with regret that I feel that I have to give Dr. Goldberg 2 stars. | 1  |
+| Been going to Dr. Goldberg for over 10 years. I think I was one of his 1st patients when he started at MHMG. He's been great over the years and is really all about the big picture. It is because of him, not my now former gyn Dr. Markoff, that I found out I have fibroids. He explores all options with you and is very patient and understanding. He doesn't judge and asks all the right questions. Very thorough and wants to be kept in the loop on every aspect of your medical health and your life.       | 2 |
+- **Word vectorization**: Collapsed one-hot
+- **Notebook**: [**Perceptron classifier for sentimental analysis using Yelp reviews data**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/MAIN_yelp_perceptron.ipynb)
 
 
 
 s
+
 s
+
 s
+
+
 s
+
 s
+
 ss
 
 
