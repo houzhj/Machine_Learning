@@ -13,6 +13,16 @@
 
 
 
+# Single Layer Perceptron and Multilayer Perceptron for a Binary Classification (Toy Data)
+- **Introduction**: The goal is to design a binary classifier using a generated toy dataset (classifying two-dimensional points into one of two classes).
+- **Data**: Generated toy datasets, two dimensions
+- **Notebook**: [**Perceptron and Multiple Layer Perceptron Models using PyTorch**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/MAIN_perceptron_mlp.ipynb)
+  - Model: Perceptron and Multilayer Perceptron
+  - Visualization of the training - changes in the loss and the hyperplain (an [application](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb) of Axes.contour)
+
+
+
+
 
 
 s
