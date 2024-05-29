@@ -24,7 +24,7 @@
 
 # Surname Classification
 - **Introduction**:
-  - The goal is to classify surnames to their country of origin using a MLP (Multilayer Perceptron) classifier.
+  - The goal is to classify surnames to their country of origin.
   - The surnames dataset includes 10,980 surnames from 18 different nationalities collected from different name sources on the internet. The top four classes account for 70% of the data: 27% are English, 22% are Russian, 15% are Arabic and 7% are Japanese. 
 - **Notebook**: [**Surname Classification using MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_MLP.ipynb)
   - Model: MLP (Multilayer Perceptron)
@@ -49,6 +49,18 @@
     - Combine the vectors in some way such that it captures the overall context. In the example below, we sum over the vectors. However, other options include taking the max, the average, or even using a Multilayer Perceptron on top.
     - The context vector is used with a nn.Linear(.) layer to compute a prediction vector. This prediction vector is a probability distribution over the entire vocabulary. The largest (most probable) value in the prediction vector indicates the likely prediction for the target word—the center word missing from the context.
   - NLP data treatment: learned-based word embedding
+
+# Fine-tuning Pre-trained Embeddings (GloVe) using the AG News dataset 
+- **Introduction**:
+  - The goal is to construct a classification task of predicting the category given the headline..
+  - The raw Frankenstein text dataset includes 3,427 sentences. The data treatment steps enumerate the dataset as a sequence of windows by iterating over the list of tokens in each sentence and group them into windows of a specified window size. With window size = 3, the modeling data include 90,700 windows (rows).
+- **Notebook**: [**Fine-tuning Pre-trained Embeddings (GloVe) using the AG News dataset**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/MAIN_AGnews_CNN_embedding.ipynb)
+  - Model: CBOW with embedding. The model has three essential steps:
+    - Indices representing the words of the context are used with an nn.Embedding(.) layer to create vectors for each word in the context.
+    - Combine the vectors in some way such that it captures the overall context. In the example below, we sum over the vectors. However, other options include taking the max, the average, or even using a Multilayer Perceptron on top.
+    - The context vector is used with a nn.Linear(.) layer to compute a prediction vector. This prediction vector is a probability distribution over the entire vocabulary. The largest (most probable) value in the prediction vector indicates the likely prediction for the target word—the center word missing from the context.
+  - NLP data treatment: learned-based word embedding
+
 
 # Modeling Components
 - Algorithms: [[**Perceptron, MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_classifiers.ipynb)], [[**CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/convolutional_layer.ipynb)]
