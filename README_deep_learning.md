@@ -48,7 +48,7 @@
   - **Word vectorization**: Collapsed one-hot
 - **Notebook**: [**Surname Classification using CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_CNN.ipynb)
   - **Word vectorization**: Matrix of one-hots
-- **Notebook**: [**Surname Classification using Elman RNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_RNN.ipynb)
+- **Notebook**: [**Surname Classification using Elman RNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_Elman_RNN.ipynb)
   - **Word vectorization**: Token-IDs.
 
 # Learning Embeddings with Continuous Bag of Words (CBOW) using the novel Frankenstein
