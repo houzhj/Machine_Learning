@@ -28,4 +28,4 @@
 | A multiclass classifier for predicting the nationality of a given surname                     | CNN                           | Matrix of one-hots |
 | Learned-based embedding based on a "Continuous Bag of Words" task using the novel Frankenstein     | Perceptron with a Embedding layer      | Trained embedding |
 | A multiclass classifier for predicting the category given a news title                     | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)     |  Fine-tuned GloVe |
-
+| A multiclass classifier for predicting the nationality of a given surname                  | Elman RNN |  Token IDs |
