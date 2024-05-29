@@ -19,6 +19,7 @@
 - **Notebook**: [**Perceptron and Multiple Layer Perceptron Models using PyTorch**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/MAIN_perceptron_mlp.ipynb)
   - Model: Perceptron and Multilayer Perceptron
   - Visualization of the training - changes in the loss and the hyperplain (an [application](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb) of Axes.contour)
+<img width="1176" alt="image" src="https://github.com/houzhj/Machine_Learning/assets/33500622/cf8c9a6a-a2bb-41c0-980a-f5727108767a">
 
 
 
