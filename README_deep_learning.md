@@ -34,6 +34,10 @@
   - Model: CNN (Convolutional neural network)
   - NLP data treatment: Matrix of one-hots with an "unknown" token.
   - A weight is assigned to each surname class that is inversely proportional to its frequency.
+- **Notebook**: [**Surname Classification using RNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_RNN.ipynb)
+  - Model: Elman RNN (Recurrent neural network)
+  - NLP data treatment: Vecterization based on token-IDs.
+  - A weight is assigned to each surname class that is inversely proportional to its frequency.
   
 # Learning Embeddings with Continuous Bag of Words (CBOW) using the novel Frankenstein
 - **Introduction**:
