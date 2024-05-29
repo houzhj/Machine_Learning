@@ -73,7 +73,7 @@
 - **Notebook**: [**Learning Embeddings with CBOW using Frankenstein**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
 
 
-# News Classification Ssing Pre-trained Embeddings (Fine-Tuned GloVe)
+# News Classification Using Pre-trained Embeddings (Fine-Tuned GloVe)
 - **Introduction**: The goal is to construct a classification task of predicting the category given the headline..
 - **Data**: 
   | **category**                 | **Title**         |
