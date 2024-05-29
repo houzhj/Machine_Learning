@@ -61,7 +61,7 @@
   ......
   *You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings.  I arrived here yesterday, and my first task is to assure my dear sister of my welfare and increasing confidence in the success of my undertaking......*
   "
-   | **Context**                | **Target**         |
+  | **Context**                 | **Target**         |
   |-----------------------------|--------------------|
   | you will rejoice hear that no         | to       |
   | will rejoice to that no disaster      | that     |
@@ -73,83 +73,20 @@
 - **Notebook**: [**Learning Embeddings with CBOW using Frankenstein**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
 
 
+# News Classification Ssing Pre-trained Embeddings (Fine-Tuned GloVe)
+- **Introduction**: The goal is to construct a classification task of predicting the category given the headline..
+- **Data**: 
+  | **category**                 | **Title**         |
+  |-----------------------------|--------------------|
+  | Boeing Expects Air Force Contract     | Business |
+  | Mars Rovers Reports Published         | Sci/Tech |
+  | Jackson has a tough match             | Sports   |
+  | Why AIDS keeps spreading in Africa    | World    |
 
-e
-
-e
-
-e
-
-e
-
-e
-
-# Perceptron-based Classifier for Sentiment Analysis (Amazon reviews)
-- **Introduction**:
-  - The training/testing datasets contains reviews written by Amazon customers for various food products. The reviews have been adjusted to a +1 or -1 scale, representing a positive or negative review, respectively.
-  - The goal is to design a classifier for sentiment analysis.
-- **Notebook**: [**Build several linear classifiers based on three algorithms**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Amazon_Reviews/amazon_linear_classifiers.ipynb)
-  - Perceptron, Average Perceptron, Pegasos.
-
-# Single Layer Perceptron and Multilayer Perceptron for a Binary Classification (Toy Data)
-- **Introduction**:
-  - The goal is to design a binary classifier using a generated toy dataset (classifying two-dimensional points into one of two classes).
-  - Using a preceptron-based algorithm to discriminate the points of one class from the other.
-  - Compared the performance of perceptrons with different numbers of hidden layers (other hyperparameters, such as learning rate, size of hidden layers are specified, rather than tuned), in scenarios involving linearly separable and not linearly separable toy data.
-- **Notebook**: [**Perceptron and Multiple Layer Perceptron Models using PyTorch**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/MAIN_perceptron_mlp.ipynb)
-  - Model: Perceptron and Multilayer Perceptron
-  - Visualization of the training - changes in the loss and the hyperplain (an [application](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb) of Axes.contour)
-
-# Perceptron Classifier for Sentiment Analysis (Yelp Reviews)
-- **Introduction**:
-  - The goal is to to classify whether restaurant reviews on Yelp are positive or negative using a perceptron.
-  - The Yelp dataset includes 56,000 reviews. This is a sample of the dataset created by Zhang, Zhao, and Lecun (2015).
-- **Notebook**: [**Perceptron classifier for sentimental analysis using Yelp reviews data**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Yelp_Reviews/MAIN_yelp_perceptron.ipynb)
-  - Model: Perceptron
-  - NLP data treatment: one-hot encoding with an "unknown" token and restrictions to infrequent tokens. 
-
-# Surname Classification
-- **Introduction**:
-  - The goal is to classify surnames to their country of origin.
-  - The surnames dataset includes 10,980 surnames from 18 different nationalities collected from different name sources on the internet. The top four classes account for 70% of the data: 27% are English, 22% are Russian, 15% are Arabic and 7% are Japanese. 
-- **Notebook**: [**Surname Classification using MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_MLP.ipynb)
-  - Model: MLP (Multilayer Perceptron)
-  - NLP data treatment: One-hot encoding with an "unknown" token.
-  - A weight is assigned to each surname class that is inversely proportional to its frequency.
-- **Notebook**: [**Surname Classification using CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_CNN.ipynb)
-  - Model: CNN (Convolutional neural network)
-  - NLP data treatment: Matrix of one-hots with an "unknown" token.
-  - A weight is assigned to each surname class that is inversely proportional to its frequency.
-- **Notebook**: [**Surname Classification using RNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_RNN.ipynb)
-  - Model: Elman RNN (Recurrent neural network)
-  - NLP data treatment: Vecterization based on token-IDs.
-  - A weight is assigned to each surname class that is inversely proportional to its frequency.
-  
-# Learning Embeddings with Continuous Bag of Words (CBOW) using the novel Frankenstein
-- **Introduction**:
-  - The goal is to construct a classification task for the purpose of learning CBOW embeddings. The CBOW model is a multiclass classification task like a fill­in­the­blank task (there is a sentence with a missing word, and the model’s job is to figure out what that word should be).
-  - The raw Frankenstein text dataset includes 3,427 sentences. The data treatment steps enumerate the dataset as a sequence of windows by iterating over the list of tokens in each sentence and group them into windows of a specified window size. With window size = 3, the modeling data include 90,700 windows (rows).
-- **Notebook**: [**Learning Embeddings with CBOW using Frankenstein**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Frankenstein/MAIN_frankenstein_Embedding.ipynb)
-  - Model: CBOW with embedding. The model has three essential steps:
-    - Indices representing the words of the context are used with an nn.Embedding(.) layer to create vectors for each word in the context.
-    - Combine the vectors in some way such that it captures the overall context. In the example below, we sum over the vectors. However, other options include taking the max, the average, or even using a Multilayer Perceptron on top.
-    - The context vector is used with a nn.Linear(.) layer to compute a prediction vector. This prediction vector is a probability distribution over the entire vocabulary. The largest (most probable) value in the prediction vector indicates the likely prediction for the target word—the center word missing from the context.
-  - NLP data treatment: learned-based word embedding
-
-# Fine-tuning Pre-trained Embeddings (GloVe) using the AG News dataset 
-- **Introduction**:
-  - The goal is to construct a classification task of predicting the category given the headline..
-  - The raw Frankenstein text dataset includes 3,427 sentences. The data treatment steps enumerate the dataset as a sequence of windows by iterating over the list of tokens in each sentence and group them into windows of a specified window size. With window size = 3, the modeling data include 90,700 windows (rows).
 - **Notebook**: [**Fine-tuning Pre-trained Embeddings (GloVe) using the AG News dataset**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/MAIN_AGnews_CNN_embedding.ipynb)
-  - Model: CBOW with embedding. The model has three essential steps:
-    - Indices representing the words of the context are used with an nn.Embedding(.) layer to create vectors for each word in the context.
-    - Combine the vectors in some way such that it captures the overall context. In the example below, we sum over the vectors. However, other options include taking the max, the average, or even using a Multilayer Perceptron on top.
-    - The context vector is used with a nn.Linear(.) layer to compute a prediction vector. This prediction vector is a probability distribution over the entire vocabulary. The largest (most probable) value in the prediction vector indicates the likely prediction for the target word—the center word missing from the context.
-  - NLP data treatment: learned-based word embedding
-
 
 # Modeling Components
-- Algorithms: [[**Perceptron, MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_classifiers.ipynb)], [[**CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/convolutional_layer.ipynb)]
+- Algorithms: [[**Perceptron, MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_classifiers.ipynb)], [[**CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/convolutional_layer.ipynb)], [[**Elman RNN**]](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_RNN.ipynb)
 - Visualization of the learning process: [[**Perceptron**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb)]
 - Word embedding:
   - [**Introduction**](https://github.com/houzhj/Machine_Learning/blob/main/README_word_vecterization.md)
