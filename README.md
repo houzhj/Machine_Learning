@@ -29,4 +29,4 @@
 | Learned-based embedding based on a "Continuous Bag of Words" task using the novel Frankenstein     | Perceptron with a Embedding layer      | Token IDs & Trained embedding |
 | A multiclass classifier for predicting the category given a news title                     | CNN with fine-tuning pretrained word Embeddings (Stanford's GloVe)     |  Token IDs & Fine-tuned GloVe |
 | A multiclass classifier for predicting the nationality of a given surname                  | Elman RNN |  Token IDs |
-| A Unconditioned Surname Generation Model for generating a surnames without observing the nationality | GRU RNN |  Token IDs |
+| A unconditioned surname generation model for generating a surnames without observing the nationality | GRU RNN |  Token IDs |
