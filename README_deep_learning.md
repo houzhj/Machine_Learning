@@ -51,6 +51,19 @@
 - **Notebook**: [**Surname Classification using Elman RNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_Elman_RNN.ipynb)
   - **Word vectorization**: Token-IDs.
 
+# Surname Generation
+- **Introduction**: The goal is to generate surnames
+- **Data**: The surnames dataset includes 10,980 surnames from 18 different nationalities collected from different name sources on the internet. The top four classes account for 70% of the data: 27% are English, 22% are Russian, 15% are Arabic and 7% are Japanese.
+  | **nationality**                | **nationality_index**           | **surname**     |
+  |-----------------------------|--------------------------|--------------|
+  | Arabic | 15 | Totah|
+  | English | 12 | Foxall|
+  | German | 9 | Neuman|
+  | Japanese | 7 | Yamanaka|
+- **Notebook**: [**Surname Generation using GRU**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_MLP.ipynb)
+  - The model does not observe the nationality before generating a surname, i.e., the model is unconditioned, the GRU does not bias its computations toward any nationality.
+  - **Word vectorization**: Token-IDs.
+
 # Learning Embeddings with Continuous Bag of Words (CBOW) using the novel Frankenstein
 - **Introduction**: The goal is to construct a classification task for the purpose of learning CBOW embeddings. The CBOW model is a multiclass classification task like a fill­-in­-the-­blank task (there is a sentence with a missing word, and the model’s job is to figure out what that word should be).
 - **Data**: The raw Frankenstein text dataset includes 3,427 sentences. The data treatment steps enumerate the dataset as a sequence of windows by iterating over the list of tokens in each sentence and group them into windows of a specified window size. With window size = 3, the modeling data include 90,700 windows (rows).
