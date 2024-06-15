@@ -60,7 +60,7 @@
   | English | 12 | Foxall|
   | German | 9 | Neuman|
   | Japanese | 7 | Yamanaka|
-- **Notebook**: [**Surname Generation using GRU**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_GRU.ipynb)
+- **Notebook**: [**Unconditioned Surname Generation using GRU**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_unconditioned_surname_generation_GRU.ipynb)
   - The model does not observe the nationality before generating a surname, i.e., the model is unconditioned, the GRU does not bias its computations toward any nationality.
   - **Word vectorization**: Token-IDs.
 
