@@ -63,7 +63,7 @@
 - **Notebook**: [**Unconditioned Surname Generation using GRU**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_unconditioned_surname_generation_GRU.ipynb)
   - The model does not observe the nationality before generating a surname, i.e., the model is unconditioned, the GRU does not bias its computations toward any nationality.
   - **Word vectorization**: Token-IDs.
-- **Notebook**: [**Conditioned Surname Generation using GRU**](https://github.com/delip/PyTorchNLPBook/blob/master/chapters/chapter_7/7_3_surname_generation/7_3_Model2_Conditioned_Surname_Generation.ipynb)
+- **Notebook**: [**Conditioned Surname Generation using GRU**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_conditioned_surname_generation_GRU.ipynb.ipynb)
   - The model takes into account the nationality of the surname to be generated, i.e., the model is conditioned, we parameterize the initial hidden state of the RNN by embedding each nationality as a vector the size of the hidden state. This means that as the model adjusts its parameters, it also adjusts the values in the embedding matrix so that it biases the predictions to be more sensitive to the specific nationality and the regularities of its surnames
   - **Word vectorization**: Token-IDs.
 
