@@ -50,6 +50,8 @@
   - **Word vectorization**: Matrix of one-hots
 - **Notebook**: [**Surname Classification using Elman RNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_Elman_RNN.ipynb)
   - **Word vectorization**: Token-IDs.
+- **Notebook**: [**Surname Classification using LSTM RNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/MAIN_surname_LSTM_RNN.ipynb)
+  - **Word vectorization**: Token-IDs.
 
 # Surname Generation
 - **Introduction**: The goal is to generate surnames
