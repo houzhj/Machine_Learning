@@ -31,3 +31,4 @@
 | A multiclass classifier for predicting the nationality of a given surname                  | Elman RNN |  Token IDs |
 | A multiclass classifier for predicting the nationality of a given surname                  | LSTM RNN |  Token IDs |
 | A unconditioned surname generation model for generating a surnames without observing the nationality | GRU RNN |  Token IDs |
+| A conditioned surname generation model for generating a surnames taking into account the nationality of the surname | GRU RNN |  Token IDs |
