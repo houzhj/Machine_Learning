@@ -104,7 +104,7 @@
 - **Notebook**: [**Fine-tuning Pre-trained Embeddings (GloVe) using the AG News dataset**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/AGNews/MAIN_AGnews_CNN_embedding.ipynb)
 
 # Modeling Components
-- Algorithms: [[**Perceptron, MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_classifiers.ipynb)], [[**CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/convolutional_layer.ipynb)], [[**Elman RNN**]](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/ElmanRNN_layer.ipynb)
+- Algorithms: [[**Perceptron, MLP**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_classifiers.ipynb)], [[**CNN**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/convolutional_layer.ipynb)], [[**Elman RNN**]](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/ElmanRNN_layer.ipynb), [[**GRU RNN**]](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/GRU_layer.ipynb), [[**LSTM RNN**]](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Surname_Nationality/LSTM_layer.ipynb)
 - Visualization of the learning process: [[**Perceptron**](https://github.com/houzhj/Machine_Learning/blob/main/ipynb/Perceptron_ToyData/perceptron_visualization.ipynb)]
 - Word embedding:
   - [**Introduction**](https://github.com/houzhj/Machine_Learning/blob/main/README_word_vecterization.md)
